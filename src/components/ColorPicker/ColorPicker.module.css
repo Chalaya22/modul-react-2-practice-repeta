@@ -1,0 +1,21 @@
+.section {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.colorPickerOption {
+  width: 50px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 250ms liniar;
+}
+
+.colorPickerOptionActive {
+  transform: scale(1.1);
+}
